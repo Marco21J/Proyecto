@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8" >
+        <title>Login</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+
+    <body>
+        
+	<input type="checkbox" id="cerrar">
+    <label for="cerrar" id="btn-cerrar" > Aceptar </label>
+   
+
+	<div class="modal">
+		<div class="contenido">
+			<p id="titulo"> Politica de Privacidad </p> <br>
+			<p id="contenido"> 
+                En nuestro sitio web somos concientes de lo importante que es para nuestros usuarios su informacion 
+                su privacidad. Es por eso que nosostros tenemos el proposito de describir nuestro proceso de recoleccion
+                de informacion personal lo mas detalladamente posible, hemos creado una politica de privacidad con 
+                las leyes y normas mas recientes. Al hacer clic en Aceptar, usted reconoce que ha leido, comprendido y
+                aceptado completamente todos los contenidos de la Politica de privacidad. si desea consultar cuales son nuestras
+                normas puede dar clic en el enlace de politica de privacidad.
+                
+			</p>
+            <p id="contenido" > <a href="PoliticaDePrivacidad.html"> Politica de Privacidad </a></p>
+            <button  id="btn-no" onclick="location.href='https://www.google.com'">No Acepto</button>
+		</div>
+	</div>
+
+
+
+        <section class="form-login">
+            <h5>Login</h5>
+            <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
+            <input class="controls" type="password" name="contraseña" value="" placeholder="Contraseña">
+            <input class="buttons" type="submit" name="" value="Ingresar">
+            <p> <a href="#"> ¿Olvidaste tu contraseña?</a></p>
+        </section>
+
+
+    </body>
+
+</html>
